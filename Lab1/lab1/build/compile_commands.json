@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/server/MaJing/paper_reading/Courses/CalTechCS179/Lab1/lab1/build",
+  "command": "/bin/g++-7  -DIMG_ON -I/usr/local/cuda-10.1/include -isystem /usr/local/include/opencv4  -g   -o CMakeFiles/blur.dir/src/blur.cpp.o -c /home/server/MaJing/paper_reading/Courses/CalTechCS179/Lab1/lab1/src/blur.cpp",
+  "file": "/home/server/MaJing/paper_reading/Courses/CalTechCS179/Lab1/lab1/src/blur.cpp"
+}
+]

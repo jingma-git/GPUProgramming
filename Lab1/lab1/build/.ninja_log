@@ -1,0 +1,4 @@
+# ninja log v5
+0	497	1603107941998721717	CMakeFiles/blur.dir/src/blur_generated_blur.cu.o	d9f126dc52802f53
+497	1739	1603107943242713104	CMakeFiles/blur.dir/src/blur.cpp.o	a4ae8fb69567172f
+1740	1818	1603107943318712576	blur	fb06021c6d34f7a6

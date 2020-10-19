@@ -1,0 +1,3 @@
+/home/server/MaJing/paper_reading/Courses/CalTechCS179/Lab1/lab1/build/CMakeFiles/rebuild_cache.dir
+/home/server/MaJing/paper_reading/Courses/CalTechCS179/Lab1/lab1/build/CMakeFiles/edit_cache.dir
+/home/server/MaJing/paper_reading/Courses/CalTechCS179/Lab1/lab1/build/CMakeFiles/blur.dir
