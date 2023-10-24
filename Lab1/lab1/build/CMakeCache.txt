@@ -351,7 +351,7 @@ CUDA_nvToolsExt_LIBRARY:FILEPATH=/usr/local/cuda-10.1/lib64/libnvToolsExt.so
 CUDA_rt_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
 //Read Image
-IMG_ON:BOOL=ON
+IMG_ON:BOOL=OFF
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4

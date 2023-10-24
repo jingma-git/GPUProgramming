@@ -43,4 +43,5 @@ Speedup factor: 4.3451e-06
 
 ### References
 https://www.slideshare.net/DarshanParsana/gaussian-image-blurring-in-cuda-c
+https://github.com/jIdle/GaussianBlur-CUDA
 

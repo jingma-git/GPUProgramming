@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(blur)
 
-option(IMG_ON "Read Image" ON)
+option(IMG_ON "Read Image" OFF)
 if(IMG_ON)
    add_definitions(-DIMG_ON)
 endif()
