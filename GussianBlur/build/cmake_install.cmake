@@ -1,4 +1,4 @@
-# Install script for directory: /home/server/MaJing/paper_reading/Courses/CalTechCS179/GussianBlur
+# Install script for directory: /home/server/MaJing/courses/GPU_Programming_CalTechCS179/GussianBlur
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/server/MaJing/paper_reading/Courses/CalTechCS179/GussianBlur/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/server/MaJing/courses/GPU_Programming_CalTechCS179/GussianBlur/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
