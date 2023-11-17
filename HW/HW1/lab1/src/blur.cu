@@ -45,7 +45,7 @@ void cuda_blur_kernel(const float *gpu_raw_data, const float *gpu_blur_v,
                                      gpu_blur_v, gpu_out_data,
                                      n_frames, blur_v_size);
         // TODO: Update the thread index
-		thread_index = thread_index + blockIdx.x * blockDim.x;
+		thread_index += gridDim.x * blockDim.x;
     }
 }
 
@@ -99,7 +99,7 @@ float cuda_call_blur_kernel(const unsigned int blocks,
     // TODO: Now that kernel calls have finished, copy the output signal
     //       back from the GPU to host memory. (We store this channel's result
     //       in out_data on the host.)
-	cudaMemcpy(gpu_out_data, out_data, sizeof(float)*n_frames, cudaMemcpyDeviceToHost);
+	cudaMemcpy(out_data,gpu_out_data, sizeof(float)*n_frames, cudaMemcpyDeviceToHost);
 
     // TODO: Now that we have finished our computations on the GPU, free the
     //       GPU resources.
