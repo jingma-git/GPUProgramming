@@ -1,5 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
-project(add)
+
+if(MSVC)
+    set(CMAKE_CUDA_ARCHITECTURES 89) # GForceRTX 4060 Laptop GPU
+    set(CMAKE_CUDA_COMPILER "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/bin/nvcc.exe")
+endif()
+
+project(add LANGUAGES CXX CUDA)
 
 # CUDA
 find_package(CUDA REQUIRED)

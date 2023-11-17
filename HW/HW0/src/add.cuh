@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <cuda_runtime.h>
-
+typedef unsigned int uint;
 
 void cudaCallAddVectorKernel(
     const uint block_count,
